@@ -19,7 +19,7 @@ import javax.swing.ImageIcon;
 import org.newdawn.slick.Music;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.Sound;;
-
+//123
 /**
  * Actual game.
  * 
@@ -557,7 +557,7 @@ public class Game {
 			if (BossList.get(i).bossShooting(gameTime)) {
 				
 				switch (level) {
-				case 1:// 1=¢Öé¹45Í§ÈÒ 2=Å§45Í§ÈÒ 3= àÊé¹µÃ§
+				case 1:// 1=ï¿½ï¿½ï¿½45Í§ï¿½ï¿½ 2=Å§45Í§ï¿½ï¿½ 3= ï¿½ï¿½é¹µÃ§
 					BulletBoss b1 = new BulletBoss(BossList.get(i).machineGunBossXcoordinate, BossList.get(i).machineGunBossYcoordinate, level,1,false);
 					
 					BulletBoss b2 = new BulletBoss(BossList.get(i).machineGunBossXcoordinate1,
@@ -675,7 +675,7 @@ public class Game {
 	 * @param gameTime
 	 *            Game time.
 	 */
-	// ÊéÃÒ§ºÍ·ãËÁè·Õè¹Õè
+	// ï¿½ï¿½ï¿½Ò§ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	private void createEnemyHelicopter(long gameTime) {
 		if (gameTime - EnemyHelicopter.timeOfLastCreatedEnemy >= EnemyHelicopter.timeBetweenNewEnemies
 				&& bossFight != true) {
